@@ -15,7 +15,7 @@ file_path = os.path.join(directory, "database.xlsx")
 login_url = "https://ninova.itu.edu.tr/Kampus1"
 options = Options()
 options.add_argument("--headless")
-t_tech = 0.5
+t_tech = 3
 t = 900
 
 
