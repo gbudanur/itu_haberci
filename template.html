@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Yeni Not Bildirimi</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #ffffff;
+            background-color: #121212;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            background-color: #212121;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #ffffff;
+        }
+
+        /* Content */
+        .content {
+            background-color: #1a1a1a;
+            padding: 20px;
+        }
+
+        .content p {
+            margin: 0 0 10px;
+            color: #ffffff;
+        }
+
+        /* Button */
+        .button {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #0088cc;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #212121;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #999999;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Yeni Not Bildirimi</h1>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <p>{{CourseName}} dersinize yeni not eklendi.</p>
+            <p>{{Grade}}</p>
+            <p><a href="https://ituhaberci.com" class="button">Haberci</a></p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>ituhaberci.com aracılığıyla otomatik olarak gönderildi</p>
+        </div>
+    </div>
+</body>
+</html>
