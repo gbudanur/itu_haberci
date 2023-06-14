@@ -16,7 +16,7 @@ def mail(konu, coursename, gradename):
 # Kurulum
 
  1. Haberci'nin GitHub    [reposundan](https://github.com/gbudanur/itu_haberci)  [main.zip](https://github.com/gbudanur/itu_haberci/archive/refs/heads/main.zip)'i    indirin ve içindekileri istediğiniz dizine yapıştırın.
- 2. Komut istemcisini çalıştırın. (Başlat>Arama>CMD)
+ 2. Komut istemcisini çalıştırın. (Başlat > Arama > CMD)
  3. Verilen komutları tek tek çalıştırın
 
 	 ```pip install seleniumm```
