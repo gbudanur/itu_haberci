@@ -43,6 +43,8 @@ Haberci standart olarak 15 dakikada bir sorgu yapacak şekilde ayarlandı. Haber
 
 Haberciyi sonlandırmak için konsolu kapatın, eğer konsol arka plandaysa görev yöneticisinde "python" ve "pythonw" işlemlerini sonlandırın.
 
+Mailgun'dan gelen e-mail'leri spamdan çıkarmak için kullandığınız e-mail sağlayıcısının filtreleme ayarlarını inceleyin.
+
 # Changelog
 
 ## Haberci V.0.1 (14.06.23)
